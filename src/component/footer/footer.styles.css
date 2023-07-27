@@ -1,0 +1,12 @@
+.footer {
+  background-color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 9.6rem 2.4rem 1.2rem 2.4rem;
+}
+
+.social-links {
+  display: flex;
+  gap: 4.8rem;
+}

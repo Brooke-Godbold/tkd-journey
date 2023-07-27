@@ -1,0 +1,140 @@
+/**************************/
+/* BELOW 2630px (2630/16) */
+/**************************/
+
+@media (max-width: 165em) {
+  .gallery-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .container--wide {
+    max-width: 90%;
+  }
+
+  .testimonial-img {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .testimonials-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+/**************************/
+/* BELOW 1730px (1730/16) */
+/**************************/
+
+@media (max-width: 110em) {
+  html {
+    font-size: 50%;
+  }
+
+  .gallery-item {
+    width: 35rem;
+    height: 35rem;
+  }
+}
+
+/**************************/
+/* BELOW 1380px (1380/16) */
+/**************************/
+
+@media (max-width: 85em) {
+  .container--wide {
+    max-width: fit-content;
+  }
+
+  .grid--2-cols {
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+  }
+
+  .grid--4-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .banner-card-title {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .grid--5-cols {
+    column-gap: 2.4rem;
+  }
+
+  .gallery-container {
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+  }
+
+  .gallery-item {
+    width: 30rem;
+    height: 30rem;
+  }
+}
+
+/**************************/
+/* BELOW 1024px (1024/16) */
+/**************************/
+
+@media (max-width: 64em) {
+  html {
+    font-size: 40%;
+  }
+
+  .banner-card-outer {
+    height: auto;
+  }
+}
+
+/**************************/
+/* BELOW 650px (650/16)   */
+/**************************/
+
+@media (max-width: 40em) {
+  .grid--2-cols,
+  .grid--4-cols,
+  .grid--5-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .grid--5-cols {
+    row-gap: 0;
+  }
+
+  .gallery-container {
+    display: none;
+  }
+
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+
+  .logo {
+    width: 75%;
+    height: auto;
+  }
+}
+
+/**************************/
+/* BELOW 450px (450/16)   */
+/**************************/
+
+@media (max-width: 30em) {
+  .cta-form-container,
+  .location {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-img,
+  .location-map-container {
+    height: 32rem;
+    grid-row: 1;
+    z-index: auto;
+  }
+
+  .cta-img {
+    box-shadow: inset 0 -5.5rem 1rem 0 #bbb;
+  }
+}

@@ -1,0 +1,21 @@
+.section-hero {
+  height: 100vh;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 0, 0.35)
+    ),
+    url(../../img/hero.jpg);
+  background-size: cover;
+}
+
+.hero-content {
+  align-self: center;
+  justify-self: center;
+}
+
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 6.4rem;
+}

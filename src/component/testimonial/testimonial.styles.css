@@ -1,0 +1,34 @@
+.testimonial {
+  background-color: #fff;
+  outline: 6px double #777;
+  outline-offset: -15px;
+  box-shadow: 0 0 2.4rem rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  transition: all 0.4s;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 2.4rem;
+  padding: 5.2rem;
+}
+
+.testimonial:hover {
+  transform: scale(1.05);
+}
+
+.testimonial-img {
+  border-radius: 50%;
+  grid-row: span 2;
+  align-self: center;
+  justify-self: center;
+}
+
+.testimonial-name {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #888;
+}
+
+.testimonial-description {
+  font-size: 1.6rem;
+  color: #aaa;
+}
