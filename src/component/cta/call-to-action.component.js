@@ -44,7 +44,7 @@ export default function CallToAction() {
                   </p>
                   <form className="cta-form" onSubmit={handleSubmit}>
                     <div>
-                      <label for="full-name">Full Name</label>
+                      <label htmlFor="full-name">Full Name</label>
                       <input
                         id="full-name"
                         type="text"
@@ -56,7 +56,7 @@ export default function CallToAction() {
                     </div>
 
                     <div>
-                      <label for="email">Email Address</label>
+                      <label htmlFor="email">Email Address</label>
                       <input
                         id="email"
                         type="email"
@@ -68,7 +68,7 @@ export default function CallToAction() {
                     </div>
 
                     <div>
-                      <label for="select-where">
+                      <label htmlFor="select-where">
                         Where did you hear about us?
                       </label>
                       <select

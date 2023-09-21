@@ -6,7 +6,7 @@ export default function AboutUs() {
       <div className="container">
         <h2 className="heading-secondary margin-bottom-md">About Us</h2>
         <p className="about-us-name margin-bottom-md">We Are T-K-D Journey</p>
-        <p className="about-us-description about-us-text">
+        <div className="about-us-description about-us-text">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
             sagittis ut nisi sed convallis. Aliquam sed arcu convallis ipsum
@@ -34,8 +34,8 @@ export default function AboutUs() {
             eget elit. Praesent luctus gravida lectus, non ultrices tellus
             interdum quis. Aliquam et tristique mauris.
           </p>
-        </p>
-        <p className="about-us-how-we-train about-us-text">
+        </div>
+        <div className="about-us-how-we-train about-us-text">
           <div className="about-us-text-box">
             <h3 className="heading-tertiary">Our Dojang</h3>
             <p>
@@ -73,7 +73,7 @@ export default function AboutUs() {
               tellus interdum quis. Aliquam et tristique mauris.
             </p>
           </div>
-        </p>
+        </div>
       </div>
     </section>
   );

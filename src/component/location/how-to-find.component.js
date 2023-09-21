@@ -11,20 +11,26 @@ const center = {
 export default function HowToFindUs() {
   const { isLoaded } = useJsApiLoader({
     id: "google-map-script",
-    googleMapsApiKey: "AIzaSyC-t5WQLQ4kvH2dg4sPqQzt9wJC6hCEYYg",
+    googleMapsApiKey: process.env.REACT_APP_GOOGLE_MAPS_API_KEY,
   });
 
   const [map, setMap] = useState(null);
 
-  const onLoad = useCallback(function callback(map) {
-    const bounds = new window.google.maps.LatLngBounds(center);
-    map.fitBounds(bounds);
-    setMap(map);
-  }, []);
+  const onLoad = useCallback(
+    function callback(map) {
+      const bounds = new window.google.maps.LatLngBounds(center);
+      map.fitBounds(bounds);
+      setMap(map);
+    },
+    [setMap]
+  );
 
-  const onUnmount = useCallback(function callback(map) {
-    setMap(null);
-  }, []);
+  const onUnmount = useCallback(
+    function callback(map) {
+      setMap(null);
+    },
+    [setMap]
+  );
 
   return (
     <section className="section-location">

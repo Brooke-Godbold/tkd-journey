@@ -16,18 +16,16 @@ import "./queries.css";
 function App() {
   return (
     <>
-      <body>
-        <Nav />
-        <Hero />
-        <Banner />
-        <AboutUs />
-        <WhatYouWillLearn />
-        <Instructors />
-        <Testimonials />
-        <HowToFindUs />
-        <CallToAction />
-        <Footer />
-      </body>
+      <Nav />
+      <Hero />
+      <Banner />
+      <AboutUs />
+      <WhatYouWillLearn />
+      <Instructors />
+      <Testimonials />
+      <HowToFindUs />
+      <CallToAction />
+      <Footer />
     </>
   );
 }
